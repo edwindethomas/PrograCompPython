@@ -9,7 +9,7 @@ def joseph(n,k):
 nc = int(input())
 for i in range(nc):
     n,k = map(int,input().split())
-    n = [x for x in range(1,n+1)]
+    n = [j for j in range(1,n+1)]
     k = int(k)
     print(f"Case {i+1}: {joseph(n,k)}")
  
